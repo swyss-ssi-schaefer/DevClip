@@ -50,8 +50,13 @@ DevClip is a smart clipboard manager and issue tracker designed to help develope
    ```
 3. Run the FastAPI server:
    ```bash
-   uvicorn server:app --reload
+   cd server
+   uvicorn server.main:app --reload
+
    ```
+
+
+
 
 ### Setting up the Client
 
@@ -78,3 +83,4 @@ DevClip is a smart clipboard manager and issue tracker designed to help develope
 ## Contributing
 
 Feel free to fork the project and create pull requests for new features, bug fixes, or improvements.
+
